@@ -9,4 +9,4 @@ Ensure that Python is installed on the system to run the script. Download all th
 
 # Running The Programme:
 
-Run the main file using the system's Python. It will ask you whether you want to encrypt or decrypt a file. If encrypt, go ahead to provide a string of your choice. For decryption, ensure to have the encrypted string and the decryption key to give to the script.
+Run the main file using the system's Python. This is done well using an IDE, although it's not mandatory to do so. It will ask you whether you want to encrypt or decrypt a file. If encrypt, go ahead to provide a string of your choice. For decryption, ensure to have the encrypted string and the decryption key to give to the script.
