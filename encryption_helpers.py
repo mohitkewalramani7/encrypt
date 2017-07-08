@@ -154,6 +154,6 @@ def construct_decryption_key(random_integer):
     elif random_integer == 5:
         return "3c8{0}{0}{0}{0}".format(randint(0, 9))
     elif random_integer == 6:
-        return "{0}5g7{0}{0}{0}{0}".format(randint(0, 9))
+        return "{0}5q7{0}{0}{0}{0}".format(randint(0, 9))
     elif random_integer == 7:
         return "{0}{0}{0}{0}{0}8m4".format(randint(0, 9))

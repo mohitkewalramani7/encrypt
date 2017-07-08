@@ -58,7 +58,7 @@ class MyTestCase(unittest.TestCase):
         self.assertEquals("2e7", search('\d(2e7)\d{4}', construct_decryption_key(3)).group(1))
         self.assertEquals("8z5", search('\d{4}(8z5)\d', construct_decryption_key(4)).group(1))
         self.assertEquals("3c8", search('(3c8)\d{4}', construct_decryption_key(5)).group(1))
-        self.assertEquals("5g7", search('\d(5g7)\d{4}', construct_decryption_key(6)).group(1))
+        self.assertEquals("5q7", search('\d(5q7)\d{4}', construct_decryption_key(6)).group(1))
         self.assertEquals("8m4", search('\d{5}(8m4)', construct_decryption_key(7)).group(1))
 
 
